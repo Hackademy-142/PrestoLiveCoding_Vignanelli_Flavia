@@ -1,0 +1,163 @@
+* {
+    font-family: "Roboto Serif", serif;
+    /* background-color: #013b01; */
+}
+
+/* FONT TESTI */
+.font-tit {
+    font-family: "Autour One", system-ui;
+}
+
+.font-cit {
+    font-family: "Great Vibes", cursive;
+}
+
+/* VARIABILI */
+:root {
+    --light-color: #66b100;
+    --bottle-color: #027800;
+    --green-color: hwb(120 0% 76% / 0.6);
+    --lilac-color: #9da6ce;
+    --purple-color: #6d77b0;
+}
+
+/* COLORI TESTI */
+.tx-light {
+    color: var(--light-color);
+}
+
+.tx-bottle {
+    color: var(--bottle-color);
+}
+
+.tx-green {
+    color: var(--green-color);
+}
+
+.tx-lilac {
+    color: var(--lilac-color);
+}
+
+.tx-purple {
+    color: var(--purple-color);
+}
+
+/* SETTAGGI RIUTILIZZABILI */
+.img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5%;
+}
+
+.bot {
+    color: black;
+    font-family: "Autour One", system-ui;
+    font-style: italic;
+    padding: 5px 10px;
+    border: 3px solid var(--purple-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    background-image: linear-gradient(0deg, hsla(229, 33%, 71%, .5), white);
+}
+
+/* SECTION NAVBAR */
+.navbar {
+    height: 135px;
+    padding: 0px;
+}
+
+.logo {
+    max-width: 170px;
+    max-height: 170px;
+}
+
+.bordo {
+    border-top: 2px solid var(--green-color);
+    border-bottom: 2px solid var(--green-color);
+    padding: 0px;
+    margin-top: 0px;
+    font-family: "Autour One", system-ui;
+}
+
+@media screen and (max-width:991.11px) {
+    .bordo {
+        border-top: 0px;
+        border-bottom: 0px;
+    }
+}
+
+.navbar-toggler {
+    border: 0px;
+    border-radius: 0px;
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.form-control {
+    border-top: 2px solid var(--green-color) !important;
+    border-bottom: 2px solid var(--green-color) !important;
+    border-radius: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.nav-scrolled {
+    margin: 0px;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 0;
+}
+
+@media screen and (min-width:992px) {
+    .nav-scrolled {
+        margin: 5px 110px;
+        backdrop-filter: blur(10px);
+        border: 3px solid var(--purple-color);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+.transition {
+    transition: 0.5s;
+}
+
+.navbar-nav .dropdown-menu {
+    border: 1px solid var(--purple-color) !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+/* SECTION HEADER */
+header {
+    background-image: linear-gradient(45deg, hsla(229, 33%, 71%, .5), hsla(231, 30%, 56%, 0.8), hsla(229, 33%, 71%, 0.8), white);
+}
+
+/* SECTION CITAZIONE */
+.cit {
+    background-image: url(./media/assets/citazione.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* SECTION CATEGORIE */
+.card {
+    height: 580px;
+    width: 300px;
+    padding: 10px;
+}
+
+/* SECTION NUMERI */
+.box-numbers {
+    background-image: url(./media/assets/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
