@@ -63,7 +63,7 @@ const categories = [
 let contenitoreCard = document.querySelector("#cardsWrapper")
 
 function creaCard() {
-    let tempo = 500;
+    let tempo = 100;
 
     categories.forEach((el) => {
         let col = document.createElement("div");
@@ -81,7 +81,7 @@ function creaCard() {
                         </div>
                         `
         contenitoreCard.appendChild(col);
-    tempo = tempo + 200;
+    tempo = tempo + 300;
     })
     
 }

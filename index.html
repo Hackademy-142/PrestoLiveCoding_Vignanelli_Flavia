@@ -42,14 +42,18 @@
       <div class="collapse navbar-collapse bg-white text-center p-2 " id="navbarsExample07">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item me-5">
-            <a class="nav-link bordo" aria-current="page" href="#chi_siamo">La nostra Storia</a>
+            <a class="nav-link bordo" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link bordo" aria-current="page" href="./contacts.html">La nostra Storia</a>
           </li>
           <li class="nav-item me-5 dropdown">
             <a class="nav-link dropdown-toggle bordo" href="#categorie" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Categorie
             </a>
-            <ul class="dropdown-menu ">
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item font-tit" href="#">Tutte le categorie</a></li>
               <li><a class="dropdown-item font-tit" href="#">Piante Fiorite</a></li>
               <li><a class="dropdown-item font-tit" href="#">Piante Grasse e Succulente</a></li>
               <li><a class="dropdown-item font-tit" href="#">Piante Aromatiche</a></li>
@@ -69,11 +73,11 @@
   <!-- Fine Navbar -->
 
   <!-- Header -->
-  <header class="container mt-5">
+  <header class="container-fluid mt-5">
     <div class="row justify-content-center align-items-center ">
       <div class="col-12 mt-5 pt-5"></div>
       <!-- Colonna Titolo  -->
-      <div class="col-12 col-lg-5 my-5 p-4 " data-aos="fade-right" data-aos-delay="500">
+      <div class="col-12 col-lg-5 my-5 p-4 ">
         <h2 class="display-6 text-center font-tit">La storia di</h2>
         <h2 class="display-6 text-center font-tit pb-5">Fiori Favola</h2>
         <h6 class="text-center pb-3 lead text-white">FioriFavola nasce dalla passione di <strong>Alice</strong>, una
@@ -90,7 +94,7 @@
         </div>
       </div>
       <!-- Colonna IMAGE  -->
-      <div class="col-12 col-lg-5 p-4" data-aos="fade-left" data-aos-delay="500">
+      <div class="col-12 col-lg-5 p-4">
         <img class="w-100 img" src="./media/assets/Alice.png" alt="">
       </div>
     </div>
@@ -98,7 +102,7 @@
   <!-- Fine Header -->
 
   <!-- Riga citazione -->
-  <div class="container my-5">
+  <div class="container-fluid my-5">
     <div class="row mt-1 justify-content-center align-items-center">
       <div class="col-8 d-flex cit">
         <h3 class="text-center font-cit tx-bottle py-5">Ed in mezzo ad un giardino di sogni, ogni
@@ -118,7 +122,6 @@
       </div>
     </div>
     <div id="cardsWrapper" class="row justify-content-center align-items-center mt-5">
-
       <!-- card fiori -->
       <!-- <div class="col-12 col-lg-3">
         <div class="card text-center img">
@@ -177,33 +180,16 @@
           </div>
         </div>
       </div> -->
-
     </div>
     </div>
   </article>
   <!-- Fine Sezione Categorie -->
 
-  <!-- Contatti -->
-  <!-- <div class="container-fluid  mt-5">
-    <div class="row justify-content-center align-items-center">
-      <div class="col-12">
-        <h2 class="display-6 text-center font-tit">Contatti</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-md-5 d-flex">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d9958.597307069344!2d12.270075578602107!3d42.09229061044421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e2!4m0!4m3!3m2!1d42.0891362!2d12.272125599999999!5e0!3m2!1sit!2sit!4v1710969637218!5m2!1sit!2sit"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-      <div class="col-12 col-md-5">
-
-      </div>
-
-    </div>
-  </div> -->
-  <!-- Fine Contatti -->
+  <!-- Sezione Ultimi Fiori Inseriti -->
+  <div class="m-5 p-5 ">
+    <h5 class="text-center">ANCORA DA FARE Sezione Ultimi Fiori Inseriti</h5>
+  </div>
+  <!-- Fine Sezione Ultimi Fiori Inseriti -->
 
   <!-- Sezione Numeri -->
   <div class="container my-5">
@@ -231,71 +217,114 @@
   <!-- Fine Sezione Numeri -->
 
   <!-- Footer -->
-  <div class="container-fluid">
-    <footer class="py-5">
-      <div class="row">
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-          </ul>
-        </div>
+  <footer class="container-fluid p-5">
+    <div class="row mx-2 mx-md-5 justify-content-center">
+      <!-- colonna contatti -->
+      <div class="col-12 col-md-4 px-1 px-md-5 mt-3">
+        <h5 class="mb-4 font-tit">Contatti</h5>
+        <ul class="list-unstyled">
 
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-          </ul>
-        </div>
+          <li class="my-2">
+            <a href="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d9958.597307069344!2d12.270075578602107!3d42.09229061044421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e2!4m0!4m3!3m2!1d42.0891362!2d12.272125599999999!5e0!3m2!1sit!2sit!4v1710969637218!5m2!1sit!2sit"
+              class="text-decoration-none text-reset">
+              <i class="bi bi-geo-alt-fill me-2"></i>
+              <span class="text-footer">Via di San Francesco, 79 - 00061 Anguillara S. - RM</span>
+            </a>
+          </li>
 
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-          </ul>
-        </div>
+          <li class="my-2">
+            <a href="tel:+393314432962" class="text-decoration-none text-reset">
+              <i class="bi bi-telephone-fill me-2"></i>
+              <span class="text-footer">+39 331 443 2962</span>
+            </a>
+          </li>
 
-        <div class="col-md-5 offset-md-1 mb-3">
-          <form>
-            <h5>Subscribe to our newsletter</h5>
-            <p>Monthly digest of what's new and exciting from us.</p>
-            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-primary" type="button">Subscribe</button>
-            </div>
-          </form>
-        </div>
-      </div>
-
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p>© 2022 Company, Inc. All rights reserved.</p>
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#twitter"></use>
-              </svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#instagram"></use>
-              </svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#facebook"></use>
-              </svg></a></li>
+          <li class="my-2">
+            <a href="mailto:info@fiorifavola.com" class="text-decoration-none text-reset">
+              <i class="bi bi-envelope-open-heart-fill me-2"></i>
+              <span class="text-footer">info@fiorifavola.com</span>
+            </a>
+          </li>
         </ul>
       </div>
-    </footer>
-  </div>
+
+      <!-- colonna pagine -->
+      <div class="col-12 col-md-2 px-1 px-md-5 mt-3">
+        <h5 class="mb-4 font-tit">Pagine</h5>
+
+        <ul class="list-unstyled">
+          <li class="my-2">
+            <a href="./index.html" class="text-decoration-none text-reset">
+              <i class="bi bi-flower1 me-2"></i>
+              <span class="text-footer">Home</span>
+            </a>
+          </li>
+
+          <li class="my-2">
+            <a href="./history/history.html" class="text-decoration-none text-reset">
+              <i class="bi bi-flower1 me-2"></i>
+              <span class="text-footer">Chi siamo</span>
+            </a>
+          </li>
+
+          <li class="my-2">
+            <a href="./categories/categories.html" class="text-decoration-none text-reset">
+              <i class="bi bi-flower1 me-2"></i>
+              <span class="text-footer">Categorie</span>
+            </a>
+          </li>
+
+          <li class="my-2">
+            <a href="./contacts/contacts.html" class="text-decoration-none text-reset">
+              <i class="bi bi-flower1 me-2"></i>
+              <span class="text-footer">Contatti</span>
+            </a>
+          </li>
+
+
+        </ul>
+      </div>
+
+      <!-- colonna social media -->
+      <div class="col-12 col-md-3 px-1 px-md-5 mt-3">
+        <h5 class="mb-4 font-tit">Social Media</h5>
+
+        <ul class="list-unstyled">
+          <li class="my-2">
+            <a href="https://www.instagram.com/" class="text-decoration-none text-reset">
+              <i class="bi bi-instagram me-2"></i>
+              <span class="text-footer">Instagram</span>
+            </a>
+          </li>
+
+          <li class="my-2">
+            <a href="https://www.facebook.com/" class="text-decoration-none text-reset">
+              <i class="bi bi-facebook me-2"></i>
+              <span class="text-footer">Facebook</span>
+            </a>
+          </li>
+
+          <li class="my-2">
+            <a href="https://wa.me/+393314432962" class="text-decoration-none text-reset">
+              <i class="bi bi-whatsapp me-2"></i>
+              <span class="text-footer">Whatsapp</span>
+            </a>
+          </li>
+        </ul>
+        <div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="row mt-5">
+      <p class="text-center text-footer">© 2024 - Fiori Favola by Flavia Vignanelli</p>
+    </div>
+
+  </footer>
   <!--Fine Footer -->
 
   <!-- BOOTSTRAP JS -->

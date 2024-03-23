@@ -150,6 +150,13 @@ header {
     padding: 10px;
 }
 
+.iframe {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5%;
+}
+
 /* SECTION NUMERI */
 .box-numbers {
     background-image: url(./media/assets/4.png);
@@ -161,3 +168,18 @@ header {
     width: 200px;
 }
 
+
+/* SECTION FOOTER */
+.logo2 {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+footer {
+    color: black;
+    background-image: linear-gradient(45deg, hsla(229, 33%, 71%, .5), hsla(231, 30%, 56%, 0.8), hsla(229, 33%, 71%, 0.8), white);
+}
+
+.text-footer{
+    font-size: 12px;
+}
