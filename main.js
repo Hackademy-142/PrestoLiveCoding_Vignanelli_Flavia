@@ -1,7 +1,5 @@
 // EVENTO SCROLL NAVBAR
-
 let navbar = document.querySelector(".navbar")
-
 
 window.addEventListener("scroll", () => {
     if (window.scrollY > 0) {
@@ -76,7 +74,7 @@ function creaCard() {
                         <p class="card-text">${el.description}</p>
 
 
-                        <a href="#" class="btn bot">Scopri</a>
+                        <a href="#" class="btn bottone">Scopri</a>
                         </div>
                         </div>
                         `

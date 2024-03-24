@@ -39,62 +39,68 @@
         <img src="./media/assets/icons8-foglia-40.png" alt="">
       </button>
 
-      <div class="collapse navbar-collapse bg-white text-center p-2 " id="navbarsExample07">
+      <div class="collapse navbar-collapse bg-white p-2 " id="navbarsExample07">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item me-5">
+          <li class="nav-item me-md-5 my-1 my-md-0">
             <a class="nav-link bordo" aria-current="page" href="./index.html">Home</a>
           </li>
-          <li class="nav-item me-5">
-            <a class="nav-link bordo" aria-current="page" href="./contacts.html">La nostra Storia</a>
+          <li class="nav-item me-md-5 my-1 my-md-0">
+            <a class="nav-link bordo" aria-current="page" href="./history.html">La nostra Storia</a>
           </li>
-          <li class="nav-item me-5 dropdown">
-            <a class="nav-link dropdown-toggle bordo" href="#categorie" role="button" data-bs-toggle="dropdown"
+          <li class="nav-item me-md-5 my-1 my-md-0 dropdown">
+            <a class="nav-link dropdown-toggle bordo" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Categorie
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item font-tit" href="#">Tutte le categorie</a></li>
+              <li><a class="dropdown-item font-tit" href="/categories/categories.html">Tutte le categorie</a></li>
               <li><a class="dropdown-item font-tit" href="#">Piante Fiorite</a></li>
               <li><a class="dropdown-item font-tit" href="#">Piante Grasse e Succulente</a></li>
               <li><a class="dropdown-item font-tit" href="#">Piante Aromatiche</a></li>
               <li><a class="dropdown-item font-tit" href="#">Piante Tropicali</a></li>
             </ul>
           </li>
-          <li class="nav-item me-5 ">
-            <a class="nav-link bordo" href="#">Contatti</a>
+          <li class="nav-item me-md-5 my-1 my-md-0 ">
+            <a class="nav-link bordo" href="./contacts.html">Contatti</a>
           </li>
         </ul>
-        <form role="search me-5">
+        <form role="search me-md-5 my-1 my-md-0">
           <input class="form-control font-tit" type="search" placeholder="Search" aria-label="Search">
         </form>
+        <div class="ms-0 ms-md-3 fs-4 tx-bottle me-md-5 my-2 my-md-0">
+          <i class="bi bi-bag-heart-fill "></i>
+          <i class="bi bi-person-hearts ms-3 "></i>
+        </div>
+
       </div>
     </div>
   </nav>
   <!-- Fine Navbar -->
 
   <!-- Header -->
-  <header class="container-fluid mt-5">
+  <header class="container-fluid mt-5 bg-color">
     <div class="row justify-content-center align-items-center ">
-      <div class="col-12 mt-5 pt-5"></div>
+      <div class="col-12 mt-5 mt-md-5 pt-5"></div>
       <!-- Colonna Titolo  -->
-      <div class="col-12 col-lg-5 my-5 p-4 ">
+      <div class="col-12 col-lg-5 my-0 my-md-5 p-4" data-aos="zoom-in" data-aos-delay="300">
         <h2 class="display-6 text-center font-tit">La storia di</h2>
-        <h2 class="display-6 text-center font-tit pb-5">Fiori Favola</h2>
-        <h6 class="text-center pb-3 lead text-white">FioriFavola nasce dalla passione di <strong>Alice</strong>, una
-          botanica con
-          anni di esperienza nel
+        <h2 class="display-6 text-center font-tit pb-2 pb-md-5">Fiori Favola</h2>
+        <h6 class="text-center pb-3 lead text-white">FioriFavola nasce dalla passione di Alice, una botanica con anni di
+          esperienza nel
           mondo
           delle piante. Dopo aver lavorato in vari vivai e giardini, ha deciso di creare il suo vivaio online, dove
-          condividere la sua conoscenza e la sua passione per le piante con il mondo. FioriFavola si impegna a offrire
-          una vasta selezione di piante di alta qualità, insieme a consigli pratici e supporto personalizzato per
-          aiutare gli amanti del verde a creare giardini floridi e rigogliosi. Unisciti a noi in questa avventura verde
-          e scopri il piacere di coltivare la bellezza nella tua vita con FioriFavola.</h6>
+          condividere la sua conoscenza e la sua passione per le piante con il mondo. <span
+            class="d-none d-md-block">FioriFavola si impegna a offrire
+            una vasta selezione di piante di alta qualità, insieme a consigli pratici e supporto personalizzato per
+            aiutare gli amanti del verde a creare giardini floridi e rigogliosi. Unisciti a noi in questa avventura
+            verde
+            e scopri il piacere di coltivare la bellezza nella tua vita con FioriFavola.</span></h6>
         <div class="text-center">
-          <button class="bot">...esplora...</button>
+          <button class="btn bottone">...esplora...</button>
         </div>
       </div>
-      <!-- Colonna IMAGE  -->
-      <div class="col-12 col-lg-5 p-4">
+      <!-- Colonna IMMAGINE  -->
+      <div class="col-12 col-lg-5 p-5 my-0 mx-0 mx-md-5 my-md-5" data-aos="zoom-in" data-aos-delay="800">
         <img class="w-100 img" src="./media/assets/Alice.png" alt="">
       </div>
     </div>
@@ -102,7 +108,7 @@
   <!-- Fine Header -->
 
   <!-- Riga citazione -->
-  <div class="container-fluid my-5">
+  <div class="container my-5">
     <div class="row mt-1 justify-content-center align-items-center">
       <div class="col-8 d-flex cit">
         <h3 class="text-center font-cit tx-bottle py-5">Ed in mezzo ad un giardino di sogni, ogni
@@ -114,73 +120,64 @@
   <!-- Fine citazione -->
 
   <!-- Sezione Categorie -->
-  <article class="container">
-    <!-- titolo -->
-    <div class="row justify-content-center align-items-center">
-      <div class="col-12">
-        <h2 class="display-6 text-center font-tit">Categorie</h2>
+  <article class="container-fluid my-2 bg-color-contr">
+    <div class="row justify-content-center align-items-center ">
+      <div class="col-12"></div>
+      <!-- Colonna IMMAGINE  -->
+      <div class="col-12 col-lg-5 p-5 m-0 m-md-2" data-aos="zoom-in" data-aos-delay="800">
+        <div id="carouselExampleAutoplaying" class="carousel slide p-5" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./media/carosello/1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./media/carosello/2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./media/carosello/3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./media/carosello/4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./media/carosello/5.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./media/carosello/6.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./media/carosello/7.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev mx-3" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next mx-3" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
-    </div>
-    <div id="cardsWrapper" class="row justify-content-center align-items-center mt-5">
-      <!-- card fiori -->
-      <!-- <div class="col-12 col-lg-3">
-        <div class="card text-center img">
-          <img src="./media/cards/1.png" class="card-img-top" alt="...">
-          <div class="card-body ">
-            <h4 class="card-title py-2">Piante Fiorite</h4>
 
-            <p class="card-text">Raccolti di fiori: una sinfonia di colori e profumi per un giardino che incanterà i
-              tuoi sensi.</p>
-
-
-            <a href="#" class="btn bot">Scopri</a>
-          </div>
+      <!-- Colonna Titolo  -->
+      <div class="col-12 col-lg-5 m-0 m-md-2 p-4" data-aos="zoom-in" data-aos-delay="300">
+        <h2 class="display-6 text-center font-tit">La nostra selezione</h2>
+        <h2 class="display-6 text-center font-tit pb-2 pb-md-5">di piante</h2>
+        <h6 class="text-center pb-3 lead text-white">Benvenuti nel nostro giardino virtuale, dove la bellezza della
+          natura fiorisce in ogni angolo. Scopri le nostre diverse categorie di piante, ciascuna con il suo fascino
+          unico. Dalle eleganti Piante Fiorite che catturano lo sguardo con i loro colori vivaci, alle robuste Piante
+          Succulente, simbolo di semplicità e resistenza. Assapora l'essenza delle Piante Grasse, testimoni della forza
+          e della bellezza della natura selvaggia. E infine, delizia il tuo palato con le fragranze delle nostre Piante
+          Aromatiche, pronte a trasformare ogni piatto in un'esperienza culinaria indimenticabile.
+          <span class="d-none d-md-block"></span>
+        </h6>
+        <div class="text-center">
+          <button class="btn bottone">...esplora...</button>
         </div>
-      </div> -->
-      <!-- card succulente -->
-      <!-- <div class="col-12 col-lg-3 my-5">
-        <div class="card text-center img">
-          <img src="./media/cards/2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title py-2">Piante Succulente</h4>
-
-            <p class="card-text">Scopri la bellezza delle succulente: un'armonia di forme e colori per ogni spazio
-              verde.</p>
-
-
-            <a href="#" class="btn bot">Scopri</a>
-          </div>
-        </div>
-      </div> -->
-      <!-- card aromatiche -->
-      <!-- <div class="col-12 col-lg-3">
-        <div class="card text-center img">
-          <img src="./media/cards/3.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title py-2">Piante Aromatiche</h4>
-
-            <p class="card-text">Esplora i profumi delle piante aromatiche: un'esplosione di gusto per il tuo giardino e
-              la tua
-              cucina.</p>
-
-            <a href="#" class="btn bot">Scopri</a>
-          </div>
-        </div>
-      </div> -->
-      <!-- card tropicali -->
-      <!-- <div class="col-12 col-lg-3">
-        <div class="card text-center img">
-          <img src="./media/cards/4.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title py-2">Piante Tropicali</h4>
-
-            <p class="card-text">Immergiti nel fascino tropicale: un'esperienza esotica di colori e vitalità per il tuo
-              ambiente.</p>
-            <a href="#" class="btn bot">Scopri</a>
-          </div>
-        </div>
-      </div> -->
-    </div>
+      </div>
     </div>
   </article>
   <!-- Fine Sezione Categorie -->
@@ -216,8 +213,80 @@
   </div>
   <!-- Fine Sezione Numeri -->
 
+  <!-- Sezione Categorie Card-->
+  <article class="container">
+    <!-- titolo -->
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12">
+        <h2 class="display-6 text-center font-tit">Categorie</h2>
+      </div>
+    </div>
+    <div id="cardsWrapper" class="row justify-content-center align-items-center mt-5">
+      <!-- card fiori -->
+      <!-- <div class="col-12 col-lg-3">
+          <div class="card text-center img">
+            <img src="./media/cards/1.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h4 class="card-title py-2">Piante Fiorite</h4>
+  
+              <p class="card-text">Raccolti di fiori: una sinfonia di colori e profumi per un giardino che incanterà i
+                tuoi sensi.</p>
+  
+  
+              <a href="#" class="btn bot">Scopri</a>
+            </div>
+          </div>
+        </div> -->
+      <!-- card succulente -->
+      <!-- <div class="col-12 col-lg-3 my-5">
+          <div class="card text-center img">
+            <img src="./media/cards/2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title py-2">Piante Succulente</h4>
+  
+              <p class="card-text">Scopri la bellezza delle succulente: un'armonia di forme e colori per ogni spazio
+                verde.</p>
+  
+  
+              <a href="#" class="btn bottone">Scopri</a>
+            </div>
+          </div>
+        </div> -->
+      <!-- card aromatiche -->
+      <!-- <div class="col-12 col-lg-3">
+          <div class="card text-center img">
+            <img src="./media/cards/3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title py-2">Piante Aromatiche</h4>
+  
+              <p class="card-text">Esplora i profumi delle piante aromatiche: un'esplosione di gusto per il tuo giardino e
+                la tua
+                cucina.</p>
+  
+              <a href="#" class="btn bottone">Scopri</a>
+            </div>
+          </div>
+        </div> -->
+      <!-- card tropicali -->
+      <!-- <div class="col-12 col-lg-3">
+          <div class="card text-center img">
+            <img src="./media/cards/4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title py-2">Piante Tropicali</h4>
+  
+              <p class="card-text">Immergiti nel fascino tropicale: un'esperienza esotica di colori e vitalità per il tuo
+                ambiente.</p>
+              <a href="#" class="btn bottone">Scopri</a>
+            </div>
+          </div>
+        </div> -->
+    </div>
+    </div>
+  </article>
+  <!-- Fine Sezione Categorie card-->
+
   <!-- Footer -->
-  <footer class="container-fluid p-5">
+  <footer class="container-fluid px-5 pt-5">
     <div class="row mx-2 mx-md-5 justify-content-center">
       <!-- colonna contatti -->
       <div class="col-12 col-md-4 px-1 px-md-5 mt-3">
@@ -225,8 +294,7 @@
         <ul class="list-unstyled">
 
           <li class="my-2">
-            <a href="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d9958.597307069344!2d12.270075578602107!3d42.09229061044421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e2!4m0!4m3!3m2!1d42.0891362!2d12.272125599999999!5e0!3m2!1sit!2sit!4v1710969637218!5m2!1sit!2sit"
-              class="text-decoration-none text-reset" target="_blank">
+            <a href="https://maps.app.goo.gl/pTLGZJ3f85t4iphEA" class="text-decoration-none text-reset" target="_blank">
               <i class="bi bi-geo-alt-fill me-2"></i>
               <span class="text-footer">Via di San Francesco, 79 - 00061 Anguillara S. - RM</span>
             </a>
@@ -261,7 +329,7 @@
           </li>
 
           <li class="my-2">
-            <a href="./history/history.html" class="text-decoration-none text-reset">
+            <a href="./history.html" class="text-decoration-none text-reset">
               <i class="bi bi-flower1 me-2"></i>
               <span class="text-footer">Chi siamo</span>
             </a>
@@ -275,7 +343,7 @@
           </li>
 
           <li class="my-2">
-            <a href="./contacts/contacts.html" class="text-decoration-none text-reset">
+            <a href="./contacts.html" class="text-decoration-none text-reset">
               <i class="bi bi-flower1 me-2"></i>
               <span class="text-footer">Contatti</span>
             </a>

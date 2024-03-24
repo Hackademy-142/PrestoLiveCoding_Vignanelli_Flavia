@@ -48,7 +48,7 @@
     border-radius: 5%;
 }
 
-.bot {
+.bottone {
     color: black;
     font-family: "Autour One", system-ui;
     font-style: italic;
@@ -58,6 +58,15 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
     background-image: linear-gradient(0deg, hsla(229, 33%, 71%, .5), white);
 }
+
+.bg-color {
+    background-image: linear-gradient(45deg, hsla(229, 33%, 71%, 0.5), hsla(231, 30%, 56%, 0.8), hsla(229, 33%, 71%, 0.8), white);
+}
+
+.bg-color-contr {
+    background-image: linear-gradient(45deg, white, hsla(231, 30%, 56%, 0.8), hsla(229, 33%, 71%, 0.8),  hsla(229, 33%, 71%, 0.5));
+}
+
 
 /* SECTION NAVBAR */
 .navbar {
@@ -105,6 +114,14 @@
     margin-top: 0px;
 }
 
+.form-control:focus {
+    color: var(--lilac-color);
+    background-color: #fff;
+    border-color: var(--lilac-color);
+    outline: 0;
+    box-shadow: 0 0 0 .2rem var(--lilac-color);
+}
+
 .nav-scrolled {
     margin: 0px;
     border: 0px;
@@ -129,11 +146,6 @@
 .navbar-nav .dropdown-menu {
     border: 1px solid var(--purple-color) !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
-}
-
-/* SECTION HEADER */
-header {
-    background-image: linear-gradient(45deg, hsla(229, 33%, 71%, .5), hsla(231, 30%, 56%, 0.8), hsla(229, 33%, 71%, 0.8), white);
 }
 
 /* SECTION CITAZIONE */
@@ -180,6 +192,49 @@ footer {
     background-image: linear-gradient(45deg, hsla(229, 33%, 71%, .5), hsla(231, 30%, 56%, 0.8), hsla(229, 33%, 71%, 0.8), white);
 }
 
-.text-footer{
+.text-footer {
     font-size: 12px;
 }
+
+
+/* PAGINA CONTATTI */
+.block_contacts {
+    margin-top: 180px;
+}
+
+.bordo_contacts {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: var(--purple-color) solid 2px;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.form-control2 {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid var(--lilac-color);
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control2:focus {
+    color: var(--lilac-color);
+    background-color: #fff;
+    border-color: var(--lilac-color);
+    outline: 0;
+    box-shadow: 0 0 0 .2rem var(--lilac-color);
+}
+
+.mappa {
+    height: 100%;
+    width: 100%;
+    border: var(--purple-color) solid 2px;
+}
+
+/* FINE PAGINA CONTATTI */
