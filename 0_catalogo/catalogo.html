@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Fiori Favola</title>
+    <link rel="icon" type="image/x-icon" href="/media/logo/logo.png">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Autour+One&family=Great+Vibes&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+        rel="stylesheet">
+    <!-- cdn bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- icone bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- aos css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- cdn css -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top nav-scrolled transition"
+        aria-label="Eighth navbar example">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../media/logo/logo-removebg-preview.png" class="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+                aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="../media/assets/icons8-foglia-40.png" alt="">
+            </button>
+
+            <div class="collapse navbar-collapse p-2 " id="navbarsExample07">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item me-md-5 my-1 my-md-0">
+                        <a class="nav-link bordo" aria-current="page" href="./catalogo.html">Catalogo</a>
+                    </li>
+
+                    <li class="nav-item me-md-5 my-1 my-md-0 dropdown">
+                        <a class="nav-link dropdown-toggle bordo" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categorie
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item font-tit" href="#">Piante Fiorite</a></li>
+                            <li><a class="dropdown-item font-tit" href="#">Piante Grasse e Succulente</a></li>
+                            <li><a class="dropdown-item font-tit" href="#">Piante Aromatiche</a></li>
+                            <li><a class="dropdown-item font-tit" href="#">Piante Tropicali</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item me-md-5 my-1 my-md-0 ">
+                        <a class="nav-link bordo" href="../contacts.html">Contatti</a>
+                    </li>
+
+                </ul>
+
+                <form role="search me-md-5 my-1 my-md-0">
+                    <input class="form-control font-tit" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <div class="fs-4 tx-bottle my-2 my-md-0 d-flex mx-auto">
+                    <i class="bi bi-bag-heart-fill me-1"></i>
+                    <button class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="bi bi-person-hearts tx-bottle"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Fine Navbar -->
+
+    <!-- Accedi Modale -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bordo_contacts">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <p class="h3 font-dosis">Accedi</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label small">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label small">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label small" for="exampleCheck1">Ricorda la
+                                            password</label>
+                                    </div>
+                                    <button type="submit"
+                                        class="d-block mx-auto py-2 px-4 bottonePiccolo">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fine Accedi Modale -->
+
+    <!-- Articolo -->
+    <article class="container-fluid my-5 py-5">
+        <div class="row justify-content-evenly">
+            <div class="col-12 my-5">
+                <h2 id="categories" class="display-6 text-center tx-bottle font-tit my-2">Catalogo delle Piante</h2>
+            </div>
+
+            <!-- COLONNA FILTRI  -->
+            <div class="col-12 col-lg-3 px-4 ">
+                <div class="position-sticky">
+
+                    <div class="mb-5">
+                        <h5 class="font-tit my-3">Filtro per Categoria</h5>
+                        <div id="radioWrapper">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="All" checked>
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Tutte le Categorie
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-5">
+                        <h5 class="font-tit">Filtro per Prezzo</h5>
+                        <label for="customRange1" class="form-label my-1">€<span id="currentValue"></span></label>
+                        <input id="inputPrice" type="range" class="form-range color-point" max="" min="" value="">
+                    </div>
+
+                    <div class="mb-5">
+                        <h5 class="font-tit">Filtro per Parola</h5>
+                        <div class="my-3">
+                            <label for="exampleFormControlInput1" class="form-label">Cerca tra gli articoli</label>
+                            <input type="text" class="form-control" id="inputWord" placeholder="">
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <!-- COLONNA ARTICOLI  -->
+            <div class="col-12 col-lg-8">
+                <div class="container">
+                    <div class="row justify-content-around" id="articlesWrapper">
+                        <!-- <div class="col-11 col-md-4 col-lg-4 mb-3 bg-danger">
+                            <div class="cardArticles h-100">
+                                <div class="overflow-hidden">
+                                    <img src="https://picsum.photos/201" class="img-card card-img-top" alt="...">
+                                </div>
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <div>
+                                        <h4 class="card-title text-center text-truncate my-2">${articolo.nome}
+                                        </h4>
+                                        <p class="card-text mb-1">Categoria: <span class="fw-bold">${articolo.categoria}</span>
+                                        </p>
+                                        <p class="card-text mb-2">Prezzo: <span class="fw-bold">${articolo.prezzo}</span>€</p>
+                                    </div>
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <i class="bi bi-heart fs-5 tx-purple"></i>
+                                            <a href="#" class="text-decoration-none text-reset bottonePiccolo">Aggiungi
+                                                al Carrello</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Fine Articolo -->
+
+    <!-- Footer -->
+    <footer class="container pt-3 footer">
+        <div class="row mx-2 mx-md-5 justify-content-evenly">
+
+            <!-- colonna contatti -->
+            <div class="col-6 col-md-3 px-1 mt-3">
+                <h4 class="mb-4 font-tit">Contatti</h4>
+                <ul class="list-unstyled">
+
+                    <li class="my-2">
+                        <a href="https://maps.app.goo.gl/pTLGZJ3f85t4iphEA" class="text-decoration-none text-reset"
+                            target="_blank">
+                            <i class="bi bi-geo-alt-fill me-2"></i>
+                            <span class="text-footer">Via di San Francesco, 79 - 00061 Anguillara S. - RM</span>
+                        </a>
+                    </li>
+
+                    <li class="my-2">
+                        <a href="tel:+393314432962" class="text-decoration-none text-reset">
+                            <i class="bi bi-telephone-fill me-2"></i>
+                            <span class="text-footer">+39 331 443 2962</span>
+                        </a>
+                    </li>
+
+                    <li class="my-2">
+                        <a href="mailto:info@fiorifavola.com" class="text-decoration-none text-reset">
+                            <i class="bi bi-envelope-open-heart-fill me-2"></i>
+                            <span class="text-footer">info@fiorifavola.com</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- colonna chi siamo -->
+            <div class="col-6 col-md-2 px-1 mt-3 justify-content-center">
+                <h4 class="mb-4 font-tit">Chi siamo</h4>
+
+                <ul class="list-unstyled">
+                    <li class="my-2">
+                        <a href="../history.html" class="text-decoration-none text-reset">
+                            <i class="bi bi-flower1 me-2"></i>
+                            <span class="text-footer">La nostra storia</span>
+                        </a>
+                    </li>
+
+                    <li class="my-2">
+                        <a href="../contacts.html" class="text-decoration-none text-reset">
+                            <i class="bi bi-flower1 me-2"></i>
+                            <span class="text-footer">Contattaci</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- colonna Area Legale -->
+            <div class="col-6 col-md-3 px-1 mt-3 justify-content-center">
+                <h4 class="mb-4 font-tit">Area Legale</h4>
+                <ul class="list-unstyled">
+                    <li class="my-2">
+                        <a href="#" class="text-decoration-none text-reset">
+                            <i class="bi bi-flower1 me-2"></i>
+                            <span class="text-footer">Termini e condizioni di vendita</span>
+                        </a>
+                    </li>
+                    <li class="my-2">
+                        <a href="#" class="text-decoration-none text-reset">
+                            <i class="bi bi-flower1 me-2"></i>
+                            <span class="text-footer">Informativa sulla privacy</span>
+                        </a>
+                    </li>
+                    <li class="my-2">
+                        <a href="#" class="text-decoration-none text-reset">
+                            <i class="bi bi-flower1 me-2"></i>
+                            <span class="text-footer">Cookie Policy</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- colonna Social Media -->
+            <div class="col-6 col-md-2 px-1 mt-3 justify-content-center">
+                <h4 class="mb-4 font-tit">Social Media</h4>
+                <ul class="list-unstyled">
+                    <li class="my-2">
+                        <a href="https://www.instagram.com/" class="text-decoration-none text-reset" target="_blank">
+                            <i class="bi bi-instagram me-2"></i>
+                            <span class="text-footer">Instagram</span>
+                        </a>
+                    </li>
+
+                    <li class="my-2">
+                        <a href="https://www.facebook.com/" class="text-decoration-none text-reset" target="_blank">
+                            <i class="bi bi-facebook me-2"></i>
+                            <span class="text-footer">Facebook</span>
+                        </a>
+                    </li>
+
+                    <li class="my-2">
+                        <a href="https://wa.me/+393314432962" class="text-decoration-none text-reset" target="_blank">
+                            <i class="bi bi-whatsapp me-2"></i>
+                            <span class="text-footer">Whatsapp</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="row mt-3">
+            <p class="text-center text-footer">© 2024 - Fiori Favola by Flavia Vignanelli</p>
+        </div>
+
+    </footer>
+    <!--Fine Footer -->
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- MY JS -->
+    <script src="./catalogo.js"></script>
+</body>
+
+</html>

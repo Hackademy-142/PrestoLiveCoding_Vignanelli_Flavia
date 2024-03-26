@@ -39,37 +39,40 @@
         <img src="./media/assets/icons8-foglia-40.png" alt="">
       </button>
 
-      <div class="collapse navbar-collapse bg-white p-2 " id="navbarsExample07">
+      <div class="collapse navbar-collapse p-2 " id="navbarsExample07">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
           <li class="nav-item me-md-5 my-1 my-md-0">
-            <a class="nav-link bordo" aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link bordo" aria-current="page" href="./0_catalogo/catalogo.html">Catalogo</a>
           </li>
-          <li class="nav-item me-md-5 my-1 my-md-0">
-            <a class="nav-link bordo" aria-current="page" href="./history.html">La nostra Storia</a>
-          </li>
+
           <li class="nav-item me-md-5 my-1 my-md-0 dropdown">
             <a class="nav-link dropdown-toggle bordo" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Categorie
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item font-tit" href="/categories/categories.html">Tutte le categorie</a></li>
               <li><a class="dropdown-item font-tit" href="#">Piante Fiorite</a></li>
               <li><a class="dropdown-item font-tit" href="#">Piante Grasse e Succulente</a></li>
               <li><a class="dropdown-item font-tit" href="#">Piante Aromatiche</a></li>
               <li><a class="dropdown-item font-tit" href="#">Piante Tropicali</a></li>
             </ul>
           </li>
+
           <li class="nav-item me-md-5 my-1 my-md-0 ">
             <a class="nav-link bordo" href="./contacts.html">Contatti</a>
           </li>
+
         </ul>
+
         <form role="search me-md-5 my-1 my-md-0">
           <input class="form-control font-tit" type="search" placeholder="Search" aria-label="Search">
         </form>
-        <div class="ms-0 ms-md-3 fs-4 tx-bottle me-md-5 my-2 my-md-0">
-          <i class="bi bi-bag-heart-fill "></i>
-          <i class="bi bi-person-hearts ms-3 "></i>
+        <div class="fs-4 tx-bottle my-2 my-md-0 d-flex mx-auto">
+          <i class="bi bi-bag-heart-fill me-1"></i>
+          <button class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="bi bi-person-hearts tx-bottle"></i>
+          </button>
         </div>
 
       </div>
@@ -77,15 +80,53 @@
   </nav>
   <!-- Fine Navbar -->
 
+  <!-- Accedi Modale -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bordo_contacts">
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <p class="h3 font-dosis">Accedi</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label small">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label small">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label small" for="exampleCheck1">Ricorda la
+                      password</label>
+                  </div>
+                  <button type="submit" class="d-block mx-auto py-2 px-4 bottonePiccolo">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Fine Accedi Modale -->
+
   <!-- Header -->
-  <header class="container-fluid mt-5 bg-color">
+  <header class="container-fluid mt-5 mt-md-0 sfondo-foto">
     <div class="row justify-content-center align-items-center ">
       <div class="col-12 mt-5 mt-md-5 pt-5"></div>
-      <!-- Colonna Titolo  -->
+      <!-- Colonna testo  -->
       <div class="col-12 col-lg-5 my-0 my-md-5 p-4" data-aos="zoom-in" data-aos-delay="300">
         <h2 class="display-6 text-center font-tit">La storia di</h2>
-        <h2 class="display-6 text-center font-tit pb-2 pb-md-5">Fiori Favola</h2>
-        <h6 class="text-center pb-3 lead text-white">FioriFavola nasce dalla passione di Alice, una botanica con anni di
+        <h2 class="display-6 text-center font-tit pb-2 pb-md-3">Fiori Favola</h2>
+        <h5 class="text-center pb-2 px-5 ">FioriFavola nasce dalla passione di Alice, una botanica con anni di
           esperienza nel
           mondo
           delle piante. Dopo aver lavorato in vari vivai e giardini, ha deciso di creare il suo vivaio online, dove
@@ -94,13 +135,13 @@
             una vasta selezione di piante di alta qualità, insieme a consigli pratici e supporto personalizzato per
             aiutare gli amanti del verde a creare giardini floridi e rigogliosi. Unisciti a noi in questa avventura
             verde
-            e scopri il piacere di coltivare la bellezza nella tua vita con FioriFavola.</span></h6>
+            e scopri il piacere di coltivare la bellezza nella tua vita con FioriFavola.</span></h5>
         <div class="text-center">
-          <button class="btn bottone">...esplora...</button>
+          <a href="./page_2_history.html" class="btn bottone">...esplora...</a>
         </div>
       </div>
       <!-- Colonna IMMAGINE  -->
-      <div class="col-12 col-lg-5 p-5 my-0 mx-0 mx-md-5 my-md-5" data-aos="zoom-in" data-aos-delay="800">
+      <div class="col-12 col-lg-4 p-5 my-0 mx-0 mx-md-5 my-md-5" data-aos="zoom-in" data-aos-delay="800">
         <img class="w-100 img" src="./media/assets/Alice.png" alt="">
       </div>
     </div>
@@ -108,7 +149,7 @@
   <!-- Fine Header -->
 
   <!-- Riga citazione -->
-  <div class="container my-5">
+  <div class="container my-1 my-md-5">
     <div class="row mt-1 justify-content-center align-items-center">
       <div class="col-8 d-flex cit">
         <h3 class="text-center font-cit tx-bottle py-5">Ed in mezzo ad un giardino di sogni, ogni
@@ -119,109 +160,16 @@
   </div>
   <!-- Fine citazione -->
 
-  <!-- Sezione Categorie -->
-  <article class="container-fluid my-2 bg-color-contr">
-    <div class="row justify-content-center align-items-center ">
-      <div class="col-12"></div>
-      <!-- Colonna IMMAGINE  -->
-      <div class="col-12 col-lg-5 p-5 m-0 m-md-2" data-aos="zoom-in" data-aos-delay="800">
-        <div id="carouselExampleAutoplaying" class="carousel slide p-5" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./media/carosello/1.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./media/carosello/2.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./media/carosello/3.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./media/carosello/4.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./media/carosello/5.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./media/carosello/6.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./media/carosello/7.png" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev mx-3" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next mx-3" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-
-      <!-- Colonna Titolo  -->
-      <div class="col-12 col-lg-5 m-0 m-md-2 p-4" data-aos="zoom-in" data-aos-delay="300">
-        <h2 class="display-6 text-center font-tit">La nostra selezione</h2>
-        <h2 class="display-6 text-center font-tit pb-2 pb-md-5">di piante</h2>
-        <h6 class="text-center pb-3 lead text-white">Benvenuti nel nostro giardino virtuale, dove la bellezza della
-          natura fiorisce in ogni angolo. Scopri le nostre diverse categorie di piante, ciascuna con il suo fascino
-          unico. Dalle eleganti Piante Fiorite che catturano lo sguardo con i loro colori vivaci, alle robuste Piante
-          Succulente, simbolo di semplicità e resistenza. Assapora l'essenza delle Piante Grasse, testimoni della forza
-          e della bellezza della natura selvaggia. E infine, delizia il tuo palato con le fragranze delle nostre Piante
-          Aromatiche, pronte a trasformare ogni piatto in un'esperienza culinaria indimenticabile.
-          <span class="d-none d-md-block"></span>
-        </h6>
-        <div class="text-center">
-          <button class="btn bottone">...esplora...</button>
-        </div>
-      </div>
-    </div>
-  </article>
-  <!-- Fine Sezione Categorie -->
-
-  <!-- Sezione Ultimi Fiori Inseriti -->
-  <div class="m-5 p-5 ">
-    <h5 class="text-center">ANCORA DA FARE Sezione Ultimi Fiori Inseriti</h5>
-  </div>
-  <!-- Fine Sezione Ultimi Fiori Inseriti -->
-
-  <!-- Sezione Numeri -->
-  <div class="container my-5">
-
-    <div class="row justify-content-center align-items-center">
-      <!-- titolo -->
-      <div class="col-12 mb-5">
-        <h2 class="display-6 text-center font-tit">I nostri numeri</h2>
-      </div>
-      <!-- numeri -->
-      <div class="col-10 col-lg-2 my-2 box-numbers d-flex flex-column align-items-center justify-content-center m-2">
-        <h5 class="pt-3">Utenti:</h5>
-        <p class="fs-5"><span id="numUsers">0</span>+</p>
-      </div>
-      <div class="col-10 col-lg-2 my-2 box-numbers d-flex flex-column align-items-center justify-content-center m-2">
-        <h5 class="pt-3">Piante:</h5>
-        <p class="fs-5"><span id="numPlants">0</span>+</p>
-      </div>
-      <div class="col-10 col-lg-2 my-2 box-numbers d-flex flex-column align-items-center justify-content-center m-2">
-        <h5 class="pt-3">Commenti:</h5>
-        <p class="fs-5"><span id="numComments">0</span>+</p>
-      </div>
-    </div>
-  </div>
-  <!-- Fine Sezione Numeri -->
-
   <!-- Sezione Categorie Card-->
-  <article class="container">
+  <article class="container-fluid py-5 px-0 px-md-5 sfondo">
     <!-- titolo -->
     <div class="row justify-content-center align-items-center">
       <div class="col-12">
-        <h2 class="display-6 text-center font-tit">Categorie</h2>
+        <h2 class="display-6 text-center font-tit tx-bottle">La nostra selezione</h2>
+        <h2 class="display-6 text-center font-tit pb-2 pb-md-3 tx-bottle">di piante</h2>
       </div>
     </div>
-    <div id="cardsWrapper" class="row justify-content-center align-items-center mt-5">
+    <div id="cardsWrapper" class="row justify-content-center align-items-center mt-3">
       <!-- card fiori -->
       <!-- <div class="col-12 col-lg-3">
           <div class="card text-center img">
@@ -285,12 +233,50 @@
   </article>
   <!-- Fine Sezione Categorie card-->
 
+  <!-- Sezione Ultimi Fiori Inseriti -->
+  <div class="container my-5 py-5">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 my-5">
+        <h2 class="display-6 text-center font-tit pb-2 pb-md-3 tx-bottle">Li aspettavi? I nuovi arrivati!</h2>
+      </div>
+    </div>
+    <div id="lastWrapper" class="row">
+    </div>
+  </div>
+  <!-- Fine Sezione Ultimi Fiori Inseriti -->
+
+  <!-- Sezione Numeri -->
+  <div class="container my-5">
+
+    <div class="row justify-content-center align-items-center">
+      <!-- titolo -->
+      <div class="col-12 mb-5">
+        <h2 class="display-6 text-center font-tit text-bottle">I nostri numeri</h2>
+      </div>
+      <!-- numeri -->
+      <div class="col-10 col-lg-2 my-2 box-numbers d-flex flex-column align-items-center justify-content-center m-2">
+        <h5 class="pt-3">Utenti:</h5>
+        <p class="fs-5"><span id="numUsers">0</span>+</p>
+      </div>
+      <div class="col-10 col-lg-2 my-2 box-numbers d-flex flex-column align-items-center justify-content-center m-2">
+        <h5 class="pt-3">Piante:</h5>
+        <p class="fs-5"><span id="numPlants">0</span>+</p>
+      </div>
+      <div class="col-10 col-lg-2 my-2 box-numbers d-flex flex-column align-items-center justify-content-center m-2">
+        <h5 class="pt-3">Commenti:</h5>
+        <p class="fs-5"><span id="numComments">0</span>+</p>
+      </div>
+    </div>
+  </div>
+  <!-- Fine Sezione Numeri -->
+
   <!-- Footer -->
-  <footer class="container-fluid px-5 pt-5">
-    <div class="row mx-2 mx-md-5 justify-content-center">
+  <footer class="container pt-3 footer">
+    <div class="row mx-2 mx-md-5 justify-content-evenly">
+
       <!-- colonna contatti -->
-      <div class="col-12 col-md-4 px-1 px-md-5 mt-3">
-        <h5 class="mb-4 font-tit">Contatti</h5>
+      <div class="col-6 col-md-3 px-1 mt-3">
+        <h4 class="mb-4 font-tit">Contatti</h4>
         <ul class="list-unstyled">
 
           <li class="my-2">
@@ -316,47 +302,56 @@
         </ul>
       </div>
 
-      <!-- colonna pagine -->
-      <div class="col-12 col-md-2 px-1 px-md-5 mt-3">
-        <h5 class="mb-4 font-tit">Pagine</h5>
+      <!-- colonna chi siamo -->
+      <div class="col-6 col-md-2 px-1 mt-3 justify-content-center">
+        <h4 class="mb-4 font-tit">Chi siamo</h4>
 
         <ul class="list-unstyled">
           <li class="my-2">
-            <a href="./index.html" class="text-decoration-none text-reset">
-              <i class="bi bi-flower1 me-2"></i>
-              <span class="text-footer">Home</span>
-            </a>
-          </li>
-
-          <li class="my-2">
             <a href="./history.html" class="text-decoration-none text-reset">
               <i class="bi bi-flower1 me-2"></i>
-              <span class="text-footer">Chi siamo</span>
-            </a>
-          </li>
-
-          <li class="my-2">
-            <a href="./categories/categories.html" class="text-decoration-none text-reset">
-              <i class="bi bi-flower1 me-2"></i>
-              <span class="text-footer">Categorie</span>
+              <span class="text-footer">La nostra storia</span>
             </a>
           </li>
 
           <li class="my-2">
             <a href="./contacts.html" class="text-decoration-none text-reset">
               <i class="bi bi-flower1 me-2"></i>
-              <span class="text-footer">Contatti</span>
+              <span class="text-footer">Contattaci</span>
             </a>
           </li>
-
 
         </ul>
       </div>
 
-      <!-- colonna social media -->
-      <div class="col-12 col-md-3 px-1 px-md-5 mt-3">
-        <h5 class="mb-4 font-tit">Social Media</h5>
+      <!-- colonna Area Legale -->
+      <div class="col-6 col-md-3 px-1 mt-3 justify-content-center">
+        <h4 class="mb-4 font-tit">Area Legale</h4>
+        <ul class="list-unstyled">
+          <li class="my-2">
+            <a href="#" class="text-decoration-none text-reset">
+              <i class="bi bi-flower1 me-2"></i>
+              <span class="text-footer">Termini e condizioni di vendita</span>
+            </a>
+          </li>
+          <li class="my-2">
+            <a href="#" class="text-decoration-none text-reset">
+              <i class="bi bi-flower1 me-2"></i>
+              <span class="text-footer">Informativa sulla privacy</span>
+            </a>
+          </li>
+          <li class="my-2">
+            <a href="#" class="text-decoration-none text-reset">
+              <i class="bi bi-flower1 me-2"></i>
+              <span class="text-footer">Cookie Policy</span>
+            </a>
+          </li>
+        </ul>
+      </div>
 
+      <!-- colonna Social Media -->
+      <div class="col-6 col-md-2 px-1 mt-3 justify-content-center">
+        <h4 class="mb-4 font-tit">Social Media</h4>
         <ul class="list-unstyled">
           <li class="my-2">
             <a href="https://www.instagram.com/" class="text-decoration-none text-reset" target="_blank">
@@ -379,16 +374,12 @@
             </a>
           </li>
         </ul>
-        <div>
-
-        </div>
-
       </div>
 
     </div>
 
     <!-- Copyright -->
-    <div class="row mt-5">
+    <div class="row mt-3">
       <p class="text-center text-footer">© 2024 - Fiori Favola by Flavia Vignanelli</p>
     </div>
 

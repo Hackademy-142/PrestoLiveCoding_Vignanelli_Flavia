@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "nome": "Petunia",
+        "prezzo": 12,
+        "categoria": "Piante fiorite",
+        "img":"./foto_articoli/1.png"
+    },
+    {
+        "id": 2,
+        "nome": "Dalia",
+        "prezzo": 15,
+        "categoria": "Piante fiorite",
+        "img":"./foto_articoli/2.png"
+    },
+    {
+        "id": 3,
+        "nome": "Campanula",
+        "prezzo": 14,
+        "categoria": "Piante fiorite",
+        "img":"./foto_articoli/3.png"
+    },
+    {
+        "id": 4,
+        "nome": "Dente di leone",
+        "prezzo": 10,
+        "categoria": "Piante fiorite",
+        "img":"./foto_articoli/4.png"
+    },
+    {
+        "id": 5,
+        "nome": "Calendula",
+        "prezzo": 13,
+        "categoria": "Piante fiorite",
+        "img":"./foto_articoli/5.png"
+    },
+    {
+        "id": 6,
+        "nome": "Ibisco",
+        "prezzo": 18,
+        "categoria": "Piante fiorite",
+        "img":"./foto_articoli/6.png"
+    },
+    {
+        "id": 7,
+        "nome": "Agave",
+        "prezzo": 25,
+        "categoria": "Piante succulente",
+        "img":"./foto_articoli/7.png"
+    },
+    {
+        "id": 8,
+        "nome": "Graptopetalum",
+        "prezzo": 20,
+        "categoria": "Piante succulente",
+        "img":"./foto_articoli/8.png"
+    },
+    {
+        "id": 9,
+        "nome": "Kalanchoe",
+        "prezzo": 18,
+        "categoria": "Piante succulente",
+        "img":"./foto_articoli/9.png"
+    },
+    {
+        "id": 10,
+        "nome": "Sedum",
+        "prezzo": 22,
+        "categoria": "Piante succulente",
+        "img":"./foto_articoli/10.png"
+    },
+    {
+        "id": 11,
+        "nome": "Echeveria",
+        "prezzo": 20,
+        "categoria": "Piante succulente",
+        "img":"./foto_articoli/11.png"
+    },
+    {
+        "id": 12,
+        "nome": "Haworthia",
+        "prezzo": 16,
+        "categoria": "Piante succulente",
+        "img":"./foto_articoli/12.png"
+    },
+    {
+        "id": 13,
+        "nome": "Salvia",
+        "prezzo": 8,
+        "categoria": "Piante aromatiche",
+        "img":"./foto_articoli/13.png"
+    },
+    {
+        "id": 14,
+        "nome": "Menta piperita",
+        "prezzo": 7,
+        "categoria": "Piante aromatiche",
+        "img":"./foto_articoli/14.png"
+    },
+    {
+        "id": 15,
+        "nome": "Rosmarino",
+        "prezzo": 6,
+        "categoria": "Piante aromatiche",
+        "img":"./foto_articoli/15.png"
+    },
+    {
+        "id": 16,
+        "nome": "Basilico",
+        "prezzo": 8,
+        "categoria": "Piante aromatiche",
+        "img":"./foto_articoli/16.png"
+    },
+    {
+        "id": 17,
+        "nome": "Origano",
+        "prezzo": 5,
+        "categoria": "Piante aromatiche",
+        "img":"./foto_articoli/17.png"
+    },
+    {
+        "id": 18,
+        "nome": "Timo",
+        "prezzo": 6,
+        "categoria": "Piante aromatiche",
+        "img":"./foto_articoli/18.png"
+    },
+    {
+        "id": 19,
+        "nome": "Kenzia",
+        "prezzo": 30,
+        "categoria": "Piante tropicali",
+        "img":"./foto_articoli/19.png"
+    },
+    {
+        "id": 20,
+        "nome": "Filodendro",
+        "prezzo": 32,
+        "categoria": "Piante tropicali",
+        "img":"./foto_articoli/20.png"
+    },
+    {
+        "id": 21,
+        "nome": "Sansevieria ",
+        "prezzo": 28,
+        "categoria": "Piante tropicali",
+        "img":"./foto_articoli/21.png"
+    },
+    {
+        "id": 22,
+        "nome": "Anthurium",
+        "prezzo": 25,
+        "categoria": "Piante tropicali",
+        "img":"./foto_articoli/22.png"
+    },
+    {
+        "id": 23,
+        "nome": "Orchidea",
+        "prezzo": 35,
+        "categoria": "Piante tropicali",
+        "img":"./foto_articoli/23.png"
+    },
+    {
+        "id": 24,
+        "nome": "venus flytrap",
+        "prezzo": 26,
+        "categoria": "Piante tropicali",
+        "img":"./foto_articoli/24.png"
+    }
+]

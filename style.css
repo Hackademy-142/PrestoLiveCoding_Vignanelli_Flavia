@@ -1,6 +1,5 @@
 * {
     font-family: "Roboto Serif", serif;
-    /* background-color: #013b01; */
 }
 
 /* FONT TESTI */
@@ -22,16 +21,8 @@
 }
 
 /* COLORI TESTI */
-.tx-light {
-    color: var(--light-color);
-}
-
 .tx-bottle {
     color: var(--bottle-color);
-}
-
-.tx-green {
-    color: var(--green-color);
 }
 
 .tx-lilac {
@@ -64,19 +55,47 @@
 }
 
 .bg-color-contr {
-    background-image: linear-gradient(45deg, white, hsla(231, 30%, 56%, 0.8), hsla(229, 33%, 71%, 0.8),  hsla(229, 33%, 71%, 0.5));
+    background-image: linear-gradient(45deg, white, hsla(231, 30%, 56%, 0.8), hsla(229, 33%, 71%, 0.8), hsla(229, 33%, 71%, 0.5));
 }
+
+.border_reusable {
+    border: var(--purple-color) 3px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    border-radius: 10px;
+}
+
+.bottonePiccolo {
+    border: 2px var(--purple-color) solid;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-style: italic;
+    font-size: small;
+    padding: 3px 4px;
+}
+
+.bottonePiccolo:hover {
+    background-color: var(--lilac-color);
+}
+
+.sfondo {
+    background-image: url(./media/assets/sfondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 
 
 /* SECTION NAVBAR */
 .navbar {
-    height: 135px;
+    height: 100px;
     padding: 0px;
 }
 
 .logo {
-    max-width: 170px;
-    max-height: 170px;
+    max-width: 120px;
+    max-height: 120px;
 }
 
 .bordo {
@@ -112,6 +131,7 @@
     border-left: 0px;
     padding: 0px;
     margin-top: 0px;
+    background-color: transparent;
 }
 
 .form-control:focus {
@@ -127,6 +147,7 @@
     border: 0px;
     border-radius: 0px;
     box-shadow: 0;
+    background-color: rgba(255, 255, 255, 0.8) !important;
 }
 
 @media screen and (min-width:992px) {
@@ -148,18 +169,35 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
 
-/* SECTION CITAZIONE */
+/* SECTION FOOTER */
+.text-footer {
+    font-size: 12px;
+}
+
+
+
+
+
+/* HOME PAGE */
 .cit {
     background-image: url(./media/assets/citazione.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-/* SECTION CATEGORIE */
+@media screen and (max-width:992px) {
+    .cit {
+        background-image: none;
+    }
+}
+
 .card {
     height: 580px;
     width: 300px;
     padding: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: var(--bottle-color) solid 3px;
+    border-radius: 10px;
 }
 
 .iframe {
@@ -169,7 +207,6 @@
     border-radius: 5%;
 }
 
-/* SECTION NUMERI */
 .box-numbers {
     background-image: url(./media/assets/4.png);
     background-repeat: no-repeat;
@@ -180,21 +217,16 @@
     width: 200px;
 }
 
-
-/* SECTION FOOTER */
-.logo2 {
-    max-width: 100px;
-    max-height: 100px;
+.sfondo-foto {
+    background-image: url(./media/assets/header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
-footer {
-    color: black;
-    background-image: linear-gradient(45deg, hsla(229, 33%, 71%, .5), hsla(231, 30%, 56%, 0.8), hsla(229, 33%, 71%, 0.8), white);
-}
 
-.text-footer {
-    font-size: 12px;
-}
+
 
 
 /* PAGINA CONTATTI */
@@ -237,4 +269,49 @@ footer {
     border: var(--purple-color) solid 2px;
 }
 
-/* FINE PAGINA CONTATTI */
+
+
+
+
+/* PAGINA CATALOGO */
+
+.cardArticles {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: var(--purple-color) solid 3px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.img-card {
+    transition: .5s;
+}
+
+.cardArticles:hover>div>.img-card {
+    transform: scale(1.3);
+}
+
+.position-sticky {
+    position: sticky;
+    top: 200px;
+}
+
+@media screen and (max-width:991px) {
+    .position-sticky {
+        position: static;
+        top: auto;
+    }
+}
+
+.form-check-input:checked {
+    background-color: var(--bottle-color);
+    border-color: var(--light-color);
+}
+
+.color-point::-webkit-slider-thumb {
+    background-color: var(--bottle-color);
+}
+
+.color-point::-webkit-slider-thumb:active {
+    background-color: var(--light-color);
+}
